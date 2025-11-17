@@ -25,7 +25,7 @@
         }
 
         fieldset {
-            background: #fff;
+            background: #ffffffff;
             border-radius: 11px;
             border: 1px solid;
             width: 440px;
@@ -63,28 +63,31 @@
     
 
 
-<form> 
+<form id="registrationForm"> 
    
 <fieldset>
 <h2>Student Registration </h2>
 Full Name:<br>
-<input type="text"><br>
+<input type="text" id="fullname"><br>
 
 Email:<br>
-<input type="email"> <br>
+<input type="email" id="email"> <br>
 
 Password:<br>
-<input type="password"> <br>
+<input type="password" id="password"> <br>
 
 Confirm Password:<br>
-<input type="password"> <br>
+<input type="password" id="confirmPassword"> <br>
 
 <button type="submit"> Register </button>
+
+<div id="registrationResult" > </div>
 </fieldset>
 </form>
 
-<form>
 
+
+<form>
 <fieldset>
 <h2>Course Registration </h2>
 Course name:<br>
