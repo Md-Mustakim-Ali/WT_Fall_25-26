@@ -55,6 +55,23 @@
             cursor: pointer;
             margin-top: 8px;
         }
+
+        .success-box {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+
+      #error {
+            color: red;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+
 </style>
 
 </head>
@@ -82,6 +99,7 @@ Confirm Password:<br>
 <button type="submit"> Register </button>
 
 <div id="registrationResult" > </div>
+<div id="error"></div>
 </fieldset>
 </form>
 
@@ -107,8 +125,9 @@ document.getElementById("registrationForm").onsubmit=function(){
     var password=document.getElementById("password").value.trim();
     var confirmPassword = document.getElementById("confirmPassword").value.trim();
     var resultDiv=document.getElementById("registrationResult");
+    var errorDiv = document.getElementById("error");
 
-    resultdiv.innerHTML="";
+    resultDiv.innerHTML=""; 
 
     if(fullname=="" || email=="" || password=="" || confirmPassword==""){
         resultDiv.innerHTML="<p style='color:red;'> Please fill in all fields. </p>";
@@ -120,19 +139,19 @@ document.getElementById("registrationForm").onsubmit=function(){
         return false;
     }
 
-      resultDiv.innerHTML = `
-                <div class="success-box">
-                    <strong>Registration Successful!</strong><br><br>
-                    <b>Name:</b> ${fullname}<br>
-                    <b>Email:</b> ${email}
-                </div>
-            `;
+    resultDiv.innerHTML = `
+        <div class="success-box">
+            <strong>Registration Successful!</strong><br><br>
+            <b>Name:</b> ${fullname}<br>
+            <b>Email:</b> ${email}
+        </div>
+    `;
 
-            
-}
-
+    return false;
+};
 
 </script>
+
 
 
 </body>
