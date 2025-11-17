@@ -98,6 +98,19 @@ Course name:<br>
 </form>
 
 
+<script> 
+
+document.getElementById("registrationForm").onsubmit=function(){
+
+    var fullname=document.getElementById("fullname").value.trim();
+    var email=document.getElementById("email").value.trim();
+    var password=document.getElementById("password").value.trim();
+    var confirmPassword = document.getElementById("confirmPassword").value.trim();
+    var resultDiv=document.getElementById("registrationResult");
+
+
+
+</script>
 
 
 </body>
