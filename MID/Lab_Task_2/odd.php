@@ -10,7 +10,7 @@
     
 
     body {
-         background: #969ad9ff;
+         background: #d2d5ffff;
         min-height: 100vh;
         }
 
@@ -42,7 +42,6 @@
             margin: 5px 0 15px 0;
             border-radius: 4px;
             border: 1px solid #bbb;
-            font-size: 1rem;
         }
 
         button {
@@ -52,7 +51,6 @@
             background: #1976d2;
             color: #fff;
             font-size: 1rem;
-            cursor: pointer;
             margin-top: 8px;
         }
 
@@ -70,6 +68,24 @@
             margin-top: 10px;
             font-size: 14px;
         }
+
+    .courseItem {
+        background: #f1f1f1;
+        border: 1px solid #ccc;
+        padding: 8px;
+        margin-top: 5px;
+        border-radius: 4px;
+    }
+
+    .deleteButton {
+        background: #ff4d4d;
+        border: none;
+        color: white;
+        padding: 4px 8px;
+        border-radius: 4px;
+        
+    }
+
 
 
 </style>
@@ -148,6 +164,11 @@ document.getElementById("registrationForm").onsubmit=function(){
     `;
 
     return false;
+};
+
+
+document.getElementById("courseForm").onsubmit=function(){
+    r
 };
 
 </script>
