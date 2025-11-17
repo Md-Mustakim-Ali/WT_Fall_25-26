@@ -10,7 +10,7 @@
     
 
     body {
-         background: #d2d5ffff;
+         background: #dce1ffff;
         min-height: 100vh;
         }
 
