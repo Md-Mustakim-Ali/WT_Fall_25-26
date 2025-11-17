@@ -87,12 +87,13 @@ Confirm Password:<br>
 
 
 
-<form>
+<form id="courseForm">
 <fieldset>
 <h2>Course Registration </h2>
 Course name:<br>
-<input type="text"><br>
-<button> Add Course </button>
+<input type="text" id="courseName"><br>
+<button id="addCourseButton" type="button"> Add Course </button>
+ <div id="courseList"></div>
 </fieldset>
 </form>
 
