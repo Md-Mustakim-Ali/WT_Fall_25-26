@@ -108,6 +108,28 @@ document.getElementById("registrationForm").onsubmit=function(){
     var confirmPassword = document.getElementById("confirmPassword").value.trim();
     var resultDiv=document.getElementById("registrationResult");
 
+    resultdiv.innerHTML="";
+
+    if(fullname=="" || email=="" || password=="" || confirmPassword==""){
+        resultDiv.innerHTML="<p style='color:red;'> Please fill in all fields. </p>";
+        return false;
+    }
+
+    if(password!==confirmPassword){
+        resultDiv.innerHTML="<p style='color:red;'> Passwords do not match. </p>";
+        return false;
+    }
+
+      resultDiv.innerHTML = `
+                <div class="success-box">
+                    <strong>Registration Successful!</strong><br><br>
+                    <b>Name:</b> ${fullname}<br>
+                    <b>Email:</b> ${email}
+                </div>
+            `;
+
+            
+}
 
 
 </script>
