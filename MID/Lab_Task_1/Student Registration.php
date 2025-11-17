@@ -40,7 +40,7 @@
 <body>
 
 <center><h1> <u>  Student Registration Information </u></h1>
-
+<form>
  <fieldset>
 
  First Name:<br>
@@ -102,6 +102,7 @@ Comments/Special Requests: <br>
 <input type="submit">
 
 </fieldset>
+</form>
 </center>
 </body>
 
