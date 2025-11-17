@@ -7,37 +7,52 @@
 
 <style>
 
-    body{
-        background-color: #f2f2f2;
-        font-family: Arial, sans-serif;
-        margin: 20px;
-    }
+    body {
+         background: #f3f6fc;
+        min-height: 100vh;
+        }
 
-    h2{
-        color: #333333;
-    }
 
-    form{
+        h2 {
+            color: #0c0101ff;
+            text-align: center;
+        }
+
+        form {
+            margin-bottom: 35px;
+        }
+
+        fieldset {
+            background: #fff;
+            border-radius: 11px;
+            border: 1px solid;
+            width: 440px;
+            max-width: 90vw;
+            margin: 45px auto 30px auto; 
+            padding: 25px 30px;
+            box-sizing: border-box;
+            text-align: center;
+        }
         
-        background-color: #ffffff;
-        padding: 20px;
-        border-radius: 5px;;
-        margin-bottom: 30px;
-    }
+        input[type="text"], input[type="email"], input[type="password"] {
+            width: 90%; 
+            padding: 8px;
+            margin: 5px 0 15px 0;
+            border-radius: 4px;
+            border: 1px solid #bbb;
+            font-size: 1rem;
+        }
 
-
-
-       
-    fieldset {
-      background: #fff;
-      border-radius: 11px;
-      border: 1px solid #ccc;
-      box-shadow: 0 2px 9px #e3e3ed;
-      width: 440px;
-      margin-bottom: 22px;
-      padding: 25px 30px;
-    }
-
+        button {
+            padding: 8px 16px;
+            border-radius: 4px;
+            border: none;
+            background: #1976d2;
+            color: #fff;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-top: 8px;
+        }
 </style>
 
 </head>
