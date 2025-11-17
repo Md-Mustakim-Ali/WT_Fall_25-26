@@ -13,18 +13,26 @@
 <form> 
 
 Full Name:<br>
-<input type="text"><br><br>
+<input type="text"><br>
 
 Email:<br>
-<input type="email"> <br><br>
+<input type="email"> <br>
 
 Password:<br>
-<input type="password"> <br><br>
+<input type="password"> <br>
 
 Confirm Password:<br>
-<input type="password"> <br><br>
+<input type="password"> <br>
+
+<button type="submit"> Register </button>
 
 </form>
+
+<h2>Course Registration </h2>
+Course name:<br>
+<input type="text"><br>
+<button> Add Course </button>
+
 </body>
 
 </html>
