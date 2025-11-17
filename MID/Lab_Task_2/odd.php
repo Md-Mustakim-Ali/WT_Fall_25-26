@@ -124,16 +124,23 @@ Confirm Password:<br>
 
 
 <form id="courseForm">
+
 <fieldset>
+
 <h2>Course Registration </h2>
+
 Course name:<br>
 <input type="text" id="courseName"><br>
+
 <button id="addCourseButton" type="button"> Add Course </button>
+
 <p class="courseItem">
-    Web Technology
-    <button class="deleteButton" type="button">Delete</button>
+    <button class="deleteButton" type="button">Delete</button><br><br>
 </p>
+
  <div id="courseList"></div>
+
+
 </fieldset>
 </form>
 
