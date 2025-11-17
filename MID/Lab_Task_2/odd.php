@@ -7,8 +7,10 @@
 
 <style>
 
+    
+
     body {
-         background: #f3f6fc;
+         background: #969ad9ff;
         min-height: 100vh;
         }
 
@@ -90,6 +92,9 @@ Course name:<br>
 <button> Add Course </button>
 </fieldset>
 </form>
+
+
+
 
 </body>
 
