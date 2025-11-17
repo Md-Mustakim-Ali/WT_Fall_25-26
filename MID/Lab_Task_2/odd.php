@@ -83,6 +83,8 @@
         color: white;
         padding: 4px 8px;
         border-radius: 4px;
+        float: right;
+        
         
     }
 
@@ -127,6 +129,10 @@ Confirm Password:<br>
 Course name:<br>
 <input type="text" id="courseName"><br>
 <button id="addCourseButton" type="button"> Add Course </button>
+<p class="courseItem">
+    Web Technology
+    <button class="deleteButton" type="button">Delete</button>
+</p>
  <div id="courseList"></div>
 </fieldset>
 </form>
@@ -168,7 +174,8 @@ document.getElementById("registrationForm").onsubmit=function(){
 
 
 document.getElementById("courseForm").onsubmit=function(){
-    r
+    var courseName=document.getElementById("courseName").value.trim();
+    var courseListDiv=document.getElementById("courseList");
 };
 
 </script>
