@@ -31,9 +31,9 @@
             margin: 45px auto 30px auto; 
             padding: 25px 30px;
             box-sizing: border-box;
-            text-align: center;
+            text-align: left;
         }
-        
+
         input[type="text"], input[type="email"], input[type="password"] {
             width: 90%; 
             padding: 8px;
@@ -62,8 +62,9 @@
 
 
 <form> 
-    <h2>Student Registration </h2>
+   
 <fieldset>
+<h2>Student Registration </h2>
 Full Name:<br>
 <input type="text"><br>
 
