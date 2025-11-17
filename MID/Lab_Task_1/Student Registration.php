@@ -4,12 +4,9 @@
 <head>
     <title>
         Student Registration
-</title>
-</head>
+    </title>
 
-
-<body>
- 
+     
 <style>
     
  h1{
@@ -37,7 +34,12 @@
     
 </style>
 
-<center><h1> <u>  Student Registration Information </u></h1></center>
+</head>
+
+
+<body>
+
+<center><h1> <u>  Student Registration Information </u></h1>
 
  <fieldset>
 
@@ -100,7 +102,7 @@ Comments/Special Requests: <br>
 <input type="submit">
 
 </fieldset>
-
+</center>
 </body>
 
 </html>
